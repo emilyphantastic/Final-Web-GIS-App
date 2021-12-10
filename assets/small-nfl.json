@@ -1,0 +1,410 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-112.263275, 33.527283]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 63,400",
+                "phone": "2025078357",
+                "address": "State Farm Stadium",
+                "city": "Arizona Cardinals"
+
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-84.401993, 33.755489]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 71,000",
+                "phone": "2025078357",
+                "address": "Mercedes-Benz Stadium",
+                "city": "Atlanta Falcons"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-76.6227, 39.278]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 71,008",
+                "phone": "2023879338",
+                "address": "M&T Bank Stadium",
+                "city": "Baltimore Ravens"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-78.78746, 42.773773]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 71,608",
+                "phone": "2023379338",
+                "address": "Highmark Stadium",
+                "city": "Buffalo Bills"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-80.853607, 35.225845]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 75,523",
+                "phone": "2025479338",
+                "address": "Bank of America Stadium",
+                "city": "Carolina Panthers"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-87.617256, 41.862366]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 61,500",
+                "phone": "2025479338",
+                "address": "Soldier Field",
+                "city": "Chicago Bears"
+
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-84.516846, 39.096306]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 65,515",
+                "phone": "3016547336",
+                "address": "Paul Brown Stadium",
+                "city": "Cincinnati Bengals"
+
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-81.700058, 41.506035]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 67,895",
+                "phone": "5712030082",
+                "address": "FirstEnergy Stadium",
+                "city": "Cleveland Browns"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-97.093628, 32.747841]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 80,000",
+                "phone": "7035222016",
+                "address": "At&T Stadium",
+                "city": "Dallas Cowboys"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-105.0201, 39.7439]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 76,125",
+                "phone": "6106429400",
+                "address": "Empower Field at Mile High",
+                "city": "Denver Broncos"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-83.046341, 42.340115]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 65,000",
+                "phone": "2153861365",
+                "address": "Ford Field",
+                "city": "Detroit Lions"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-88.0622, 44.5013]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 81,441",
+                "phone": "2023313355",
+                "address": "Lambeau Field",
+                "city": "Green Bay Packers"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-95.4107, 29.6847]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 72,220",
+                "phone": "2153861365",
+                "address": "NRG Stadium",
+                "city": "Houston Texans"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-86.1639, 39.7601]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 67,000",
+                "phone": "2153861365",
+                "address": "Lucas Oil Stadium",
+                "city": "Indianapolis Colts"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-81.6373, 30.3239]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 69,132",
+                "phone": "2153861365",
+                "address": "TIAA Bank Field",
+                "city": "Jacksonville Jaguars"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-115.183952, 36.090794]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 65,000",
+                "phone": "2153861365",
+                "address": "Allegiant Stadium",
+                "city": "Las Vegas Raiders"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-118.339, 33.9535]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 70,000",
+                "phone": "2153861365",
+                "address": "SoFi Stadium",
+                "city": "Los Angeles Rams"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-118.339, 33.9535]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 70,000",
+                "phone": "2153861365",
+                "address": "SoFi Stadium",
+                "city": "Los Angeles Chargers"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-80.2389, 25.958]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 65,326",
+                "phone": "2153861365",
+                "address": "Hard Rock Stadium",
+                "city": "Miami Dolphins"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-93.2575, 44.9736]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 66,655",
+                "phone": "2153861365",
+                "address": "U.S. Bank Stadium",
+                "city": "Minnesota Vikings"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-71.2643, 42.0909]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 66,829",
+                "phone": "2153861365",
+                "address": "Gillette Stadium",
+                "city": "New England Patriots"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-90.08197, 29.951439]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 73,208",
+                "phone": "2153861365",
+                "address": "Caesars Superdome",
+                "city": "New Orleans Saints"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-74.0745, 40.8135]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 82,500",
+                "phone": "2153861365",
+                "address": "MetLife Stadium",
+                "city": "New York Giants"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-74.0745, 40.8135]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 82,500",
+                "phone": "2153861365",
+                "address": "MetLife Stadium",
+                "city": "New York Jets"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.1675, 39.9014]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 69,596",
+                "phone": "2153861365",
+                "address": "Lincoln Financial Field",
+                "city": "Philadelphia Eagles"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-80.0158, 40.4468]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 68,400",
+                "phone": "2153861365",
+                "address": "Heinz Field",
+                "city": "Pittsburgh Steelers"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-121.9697, 37.4032]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 68,500",
+                "phone": "2153861365",
+                "address": "Levi's Stadium",
+                "city": "San Francisco 49ers"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.3316, 47.5952]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 69,000",
+                "phone": "2153861365",
+                "address": "Lumen Field",
+                "city": "Seattle Seahawks"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-82.5033, 27.9759]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 65,890",
+                "phone": "2153861365",
+                "address": "Raymond James Stadium",
+                "city": "Tampa Bay Buccaneers"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-86.7713, 36.1665]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 69,143",
+                "phone": "2153861365",
+                "address": "Nissan Stadium",
+                "city": "Tennessee Titans"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-90.051025, 35.138351]
+            },
+            "properties": {
+                "phoneFormatted": "Capacity: 82,000",
+                "phone": "2153861365",
+                "address": "FedExField",
+                "city": "Washington Football Team"
+            }
+        }
+    ]
+}
