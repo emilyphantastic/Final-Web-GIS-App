@@ -15,17 +15,19 @@ The main function of this application allows users to either click on the NFL lo
 
 The side-panel allows users to scroll through the list of the 32 NFL teams in the United States in alphabetical order. Note that there are two NFL teams that play in the SoFi Stadium in Los Angeles and two teams play in the MetLife Stadium in New Jersey (5 miles west of New York City). 
 
-![img](https://github.com/emilyphantastic/Final-Web-GIS-App/blob/main/img/side-panel.png)
+![img](https://github.com/emilyphantastic/Final-Web-GIS-App/blob/main/img/side-panel.PNG)
 
 On the main map, you are able to see a street view visualization of the United States. Zoomed out, it shows green outline of the United States surrounded by other nearby countries and bodies of water (outlined in blue). 
-![img](https://github.com/emilyphantastic/Final-Web-GIS-App/blob/main/img/map-zoom-out.png)
+
+![img](https://github.com/emilyphantastic/Final-Web-GIS-App/blob/main/img/map-zoom-out.PNG)
 
 As you manually zoom into a stadium, click an NFL logo, or use the side-panel to click on a stadium’s name, the map will zoom in deeper into the map until you are able to see a street view. With the street view you are able to see surrounding streets of the stadium as well as nearby businesses and parks. There is also a pop-up that labels the stadium’s name and highlights it’s capacity. This way you can remember what stadium you are currently examining. 
 
-![img](https://github.com/emilyphantastic/Final-Web-GIS-App/blob/main/img/street-view.png)
+![img](https://github.com/emilyphantastic/Final-Web-GIS-App/blob/main/img/street-view.PNG)
 
 You can also drag and scroll away from the stadium to explore other parts of the area away from the stadium itself. 
-![img](https://github.com/emilyphantastic/Final-Web-GIS-App/blob/main/img/street-view-two.png)
+
+![img](https://github.com/emilyphantastic/Final-Web-GIS-App/blob/main/img/street-view-two.PNG)
 
 The data I used was data I found by researching. I created my data by first researching the NFL stadiums in the United States then manually plugging all of the information and coordinates I find into a JSON file. I then use a fetch function in the HTML files to ready my data. 
 I found the NFL logo through a Google search and used an online PNG tool to resize my logo to my desire. 
