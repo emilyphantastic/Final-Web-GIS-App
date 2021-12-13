@@ -8,7 +8,7 @@ The goal of this application is to allow users to be able to locate all of the f
 
 Application URL: https://emilyphantastic.github.io/Final-Web-GIS-App 
 
-![](img/fullapp.png)
+![](https://github.com/emilyphantastic/Final-Web-GIS-App/blob/main/img/fullapp.png)
 
 The main function of this application allows users to either click on the NFL logo icons to see which stadium is located in the area, or they can use the side-bar menu to click through specific stadiums they want to get more information on.
 
@@ -33,7 +33,7 @@ I found the NFL logo through a Google search and used an online PNG tool to resi
 - [Mapbox Studio](https://studio.mapbox.com/)
 - [GitHub](https://github.com/)
 - [Mapbox GLJS](https://docs.mapbox.com/mapbox-gl-js/api/)
-- [Mapbox Streets Style](mapbox://styles/mapbox/streets-v11)
+- [Mapbox Street Style](mapbox://styles/mapbox/streets-v11)
 
 ## References/Data Sources:
 - [NFL logo]( https://en.wikipedia.org/wiki/National_Football_League)
