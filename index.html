@@ -121,8 +121,8 @@
             border: none;
             cursor: pointer;
             height: 50px;
-            width: 50px;
-            background-image: url(img/nfl-logo-small.png);
+            width: 45px;
+            background-image: url(img/nfl-logo-white.png);
             /* display: inline-block; */
             /* margin: 0 0.5rem; */
         }
@@ -185,7 +185,7 @@
             'pk.eyJ1IjoicGhhbmN5IiwiYSI6ImNrdmNzejJ4azBkZGsyb21scmU0aW02N3IifQ.v7OU5UTPLg9-4TVZyUFtng';
 
         /**
-         * Add the map to the page
+         * Add the map to the page, using a street map style
          */
         const map = new mapboxgl.Map({
             container: 'map',
@@ -202,9 +202,7 @@
             stadiums = await response.json()
 
             /**
-             * Assign a unique id to each stadium. You'll use this `id`
-             * later to associate each point on the map with a listing
-             * in the sidebar.
+             * Assign a unique id to each stadium.
              */
              stadiums.features.forEach((stadium, i) => {
                 stadium.properties.id = i;
@@ -214,10 +212,6 @@
              * Wait until the map loads to make changes to the map.
              */
             map.on('load', () => {
-                /**
-                 * This is where your '.addLayer()' used to be, instead
-                 * add only the source without styling a layer
-                 */
                 map.addSource('places', {
                     'type': 'geojson',
                     'data': stadiums
@@ -232,11 +226,8 @@
                 addMarkers();
             });
 
-
-
-
             /**
-             * Add a marker to the map for every store listing.
+             * Add a marker to the map for every stadium.
              **/
             function addMarkers() {
                 /* For each feature in the GeoJSON object above: */
@@ -284,30 +275,30 @@
             }
 
             /**
-             * Add a listing for each store to the sidebar.
+             * Add a listing for each stadium to the sidebar.
              **/
             function buildLocationList(stadiums) {
                 for (const stadium of stadiums.features) {
-                    /* Add a new listing section to the sidebar. */
+                    /* Add a new stadium section to the sidebar. */
                     const listings = document.getElementById('listings');
                     const listing = listings.appendChild(document.createElement('div'));
-                    /* Assign a unique `id` to the listing. */
+                    /* Assign a unique `id` to the stadium. */
                     listing.id = `listing-${stadium.properties.id}`;
-                    /* Assign the `item` class to each listing for styling. */
+                    /* Assign the `item` class to each stadium for styling. */
                     listing.className = 'item';
 
-                    /* Add the link to the individual listing created above. */
+                    /* Add the link to the individual stadium created above. */
                     const link = listing.appendChild(document.createElement('a'));
                     link.href = '#';
                     link.className = 'title';
                     link.id = `link-${stadium.properties.id}`;
                     link.innerHTML = `${stadium.properties.address}`;
 
-                    /* Add details to the individual listing. */
+                    /* Add details to the individual stadium. */
                     const details = listing.appendChild(document.createElement('div'));
                     details.innerHTML = `${stadium.properties.city}`;
                     if (stadium.properties.phone) {
-                        details.innerHTML += ` &middot; ${stadium.properties.phoneFormatted}`;
+                        details.innerHTML += ` &middot; ${stadium.properties.capacity}`;
                     }
 
                     /**
@@ -354,7 +345,7 @@
                 })
                 .setLngLat(currentFeature.geometry.coordinates)
                 .setHTML(
-                    `<h3>${currentFeature.properties.address}</h3><h4>${currentFeature.properties.phoneFormatted}</h4>`
+                    `<h3>${currentFeature.properties.address}</h3><h4>${currentFeature.properties.capacity}</h4>`
                 )
                 .addTo(map);
             }
